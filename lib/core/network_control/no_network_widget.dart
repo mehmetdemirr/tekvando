@@ -1,5 +1,5 @@
-import 'package:davet/core/network_control/network_change_manager.dart';
-import 'package:davet/core/utilty/duration_items.dart';
+import 'package:tekvando/core/network_control/network_change_manager.dart';
+import 'package:tekvando/core/utilty/duration_items.dart';
 import 'package:flutter/material.dart';
 
 class NoNetworkWidget extends StatefulWidget {

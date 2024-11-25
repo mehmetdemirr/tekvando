@@ -10,25 +10,6 @@
 part of 'app_router.dart';
 
 /// generated route for
-/// [AppsScreen]
-class AppsRoute extends PageRouteInfo<void> {
-  const AppsRoute({List<PageRouteInfo>? children})
-      : super(
-          AppsRoute.name,
-          initialChildren: children,
-        );
-
-  static const String name = 'AppsRoute';
-
-  static PageInfo page = PageInfo(
-    name,
-    builder: (data) {
-      return const AppsScreen();
-    },
-  );
-}
-
-/// generated route for
 /// [BottomNavigationScreen]
 class BottomNavigationRoute extends PageRouteInfo<void> {
   const BottomNavigationRoute({List<PageRouteInfo>? children})
@@ -48,39 +29,39 @@ class BottomNavigationRoute extends PageRouteInfo<void> {
 }
 
 /// generated route for
-/// [GameScreen]
-class GameRoute extends PageRouteInfo<void> {
-  const GameRoute({List<PageRouteInfo>? children})
+/// [ForgotPasswordScreen]
+class ForgotPasswordRoute extends PageRouteInfo<void> {
+  const ForgotPasswordRoute({List<PageRouteInfo>? children})
       : super(
-          GameRoute.name,
+          ForgotPasswordRoute.name,
           initialChildren: children,
         );
 
-  static const String name = 'GameRoute';
+  static const String name = 'ForgotPasswordRoute';
 
   static PageInfo page = PageInfo(
     name,
     builder: (data) {
-      return const GameScreen();
+      return const ForgotPasswordScreen();
     },
   );
 }
 
 /// generated route for
-/// [HomeScreen]
-class HomeRoute extends PageRouteInfo<void> {
-  const HomeRoute({List<PageRouteInfo>? children})
+/// [LoginScreen]
+class LoginRoute extends PageRouteInfo<void> {
+  const LoginRoute({List<PageRouteInfo>? children})
       : super(
-          HomeRoute.name,
+          LoginRoute.name,
           initialChildren: children,
         );
 
-  static const String name = 'HomeRoute';
+  static const String name = 'LoginRoute';
 
   static PageInfo page = PageInfo(
     name,
     builder: (data) {
-      return const HomeScreen();
+      return const LoginScreen();
     },
   );
 }
@@ -105,20 +86,39 @@ class NotificationRoute extends PageRouteInfo<void> {
 }
 
 /// generated route for
-/// [ProfileScreen]
-class ProfileRoute extends PageRouteInfo<void> {
-  const ProfileRoute({List<PageRouteInfo>? children})
+/// [RegisterScreen]
+class RegisterRoute extends PageRouteInfo<void> {
+  const RegisterRoute({List<PageRouteInfo>? children})
       : super(
-          ProfileRoute.name,
+          RegisterRoute.name,
           initialChildren: children,
         );
 
-  static const String name = 'ProfileRoute';
+  static const String name = 'RegisterRoute';
 
   static PageInfo page = PageInfo(
     name,
     builder: (data) {
-      return const ProfileScreen();
+      return const RegisterScreen();
+    },
+  );
+}
+
+/// generated route for
+/// [ResetPasswordScreen]
+class ResetPasswordRoute extends PageRouteInfo<void> {
+  const ResetPasswordRoute({List<PageRouteInfo>? children})
+      : super(
+          ResetPasswordRoute.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'ResetPasswordRoute';
+
+  static PageInfo page = PageInfo(
+    name,
+    builder: (data) {
+      return const ResetPasswordScreen();
     },
   );
 }
@@ -157,63 +157,6 @@ class SplashRoute extends PageRouteInfo<void> {
     name,
     builder: (data) {
       return const SplashScreen();
-    },
-  );
-}
-
-/// generated route for
-/// [StartingScreen]
-class StartingRoute extends PageRouteInfo<void> {
-  const StartingRoute({List<PageRouteInfo>? children})
-      : super(
-          StartingRoute.name,
-          initialChildren: children,
-        );
-
-  static const String name = 'StartingRoute';
-
-  static PageInfo page = PageInfo(
-    name,
-    builder: (data) {
-      return const StartingScreen();
-    },
-  );
-}
-
-/// generated route for
-/// [StoryViewScreen]
-class StoryViewRoute extends PageRouteInfo<void> {
-  const StoryViewRoute({List<PageRouteInfo>? children})
-      : super(
-          StoryViewRoute.name,
-          initialChildren: children,
-        );
-
-  static const String name = 'StoryViewRoute';
-
-  static PageInfo page = PageInfo(
-    name,
-    builder: (data) {
-      return const StoryViewScreen();
-    },
-  );
-}
-
-/// generated route for
-/// [TaskScreen]
-class TaskRoute extends PageRouteInfo<void> {
-  const TaskRoute({List<PageRouteInfo>? children})
-      : super(
-          TaskRoute.name,
-          initialChildren: children,
-        );
-
-  static const String name = 'TaskRoute';
-
-  static PageInfo page = PageInfo(
-    name,
-    builder: (data) {
-      return const TaskScreen();
     },
   );
 }

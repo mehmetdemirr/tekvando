@@ -1,6 +1,6 @@
 import 'package:app_settings/app_settings.dart';
-import 'package:davet/core/image_picker/service/pick_image_custom.dart';
-import 'package:davet/core/permission_control/permission_check.dart';
+import 'package:tekvando/core/image_picker/service/pick_image_custom.dart';
+import 'package:tekvando/core/permission_control/permission_check.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:permission_handler/permission_handler.dart';
 

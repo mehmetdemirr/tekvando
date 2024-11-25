@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:davet/core/function/print_function.dart';
+import 'package:tekvando/core/function/print_function.dart';
 import 'package:image_picker/image_picker.dart';
 
 Future<String?> convertXFileToBase64(XFile? file) async {

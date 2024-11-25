@@ -1,4 +1,4 @@
-import 'package:davet/generated/locale_keys.g.dart';
+import 'package:tekvando/generated/locale_keys.g.dart';
 import 'package:easy_localization/easy_localization.dart';
 
 extension MonthName on int {

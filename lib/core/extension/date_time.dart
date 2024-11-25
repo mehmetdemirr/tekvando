@@ -1,5 +1,5 @@
-import 'package:davet/core/utilty/day_name.dart';
-import 'package:davet/core/utilty/month_name.dart';
+import 'package:tekvando/core/utilty/day_name.dart';
+import 'package:tekvando/core/utilty/month_name.dart';
 import 'package:easy_localization/easy_localization.dart';
 
 extension DateTimeStr on DateTime? {

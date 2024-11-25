@@ -1,5 +1,5 @@
-import 'package:davet/core/cache/shared_pref.dart';
-import 'package:davet/core/theme/dark_theme.dart';
+import 'package:tekvando/core/cache/shared_pref.dart';
+import 'package:tekvando/core/theme/dark_theme.dart';
 import 'package:flutter/material.dart';
 
 class ThemeNotifier with ChangeNotifier {

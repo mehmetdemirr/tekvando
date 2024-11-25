@@ -1,17 +1,14 @@
 import 'dart:io';
 
 import 'package:auto_route/auto_route.dart';
-import 'package:davet/product/apps/view/apps_screen.dart';
-import 'package:davet/product/bottom_navigation/view/bottom_navigation_screen.dart';
-import 'package:davet/product/game/view/game_screen.dart';
-import 'package:davet/product/home/view/home_screen.dart';
-import 'package:davet/product/notification/view/notification_screen.dart';
-import 'package:davet/product/profile/view/profile_screen.dart';
-import 'package:davet/product/setting/setting_screen.dart';
-import 'package:davet/product/splash/view/splash_screen.dart';
-import 'package:davet/product/starting/view/starting_screen.dart';
-import 'package:davet/product/story_view/view/story_view_screen.dart';
-import 'package:davet/product/task/view/task_screen.dart';
+import 'package:tekvando/product/auth/forgot-password/forgot_password_screen.dart';
+import 'package:tekvando/product/auth/login/view/login_screen.dart';
+import 'package:tekvando/product/auth/register/view/register_screen.dart';
+import 'package:tekvando/product/auth/reset-password/reset_password_screen.dart';
+import 'package:tekvando/product/bottom_navigation/view/bottom_navigation_screen.dart';
+import 'package:tekvando/product/notification/view/notification_screen.dart';
+import 'package:tekvando/product/setting/setting_screen.dart';
+import 'package:tekvando/product/splash/view/splash_screen.dart';
 
 part 'app_router.gr.dart';
 
@@ -31,20 +28,8 @@ class AppRouter extends RootStackRouter {
           initial: true,
         ),
         AutoRoute(
-          path: RouterItem.starting.str(),
-          page: StartingRoute.page,
-        ),
-        AutoRoute(
           path: RouterItem.bottomNavigation.str(),
           page: BottomNavigationRoute.page,
-        ),
-        AutoRoute(
-          path: RouterItem.storyView.str(),
-          page: StoryViewRoute.page,
-        ),
-        AutoRoute(
-          path: RouterItem.game.str(),
-          page: GameRoute.page,
         ),
         AutoRoute(
           path: RouterItem.setting.str(),
@@ -55,26 +40,30 @@ class AppRouter extends RootStackRouter {
           page: NotificationRoute.page,
         ),
         AutoRoute(
-          path: RouterItem.task.str(),
-          page: NotificationRoute.page,
+          path: RouterItem.login.str(),
+          page: LoginRoute.page,
+        ),
+        AutoRoute(
+          path: RouterItem.register.str(),
+          page: RegisterRoute.page,
+        ),
+        AutoRoute(
+          path: RouterItem.resetPassword.str(),
+          page: ResetPasswordRoute.page,
         ),
       ];
 }
 
 enum RouterItem {
   splash,
-  starting,
-  storyView,
   login,
   register,
   resetPassword,
   forgotPassword,
   bottomNavigation,
   home,
-  game,
   setting,
   notification,
-  task,
 }
 
 extension RouterItems on RouterItem {

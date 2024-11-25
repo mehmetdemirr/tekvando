@@ -1,7 +1,7 @@
 // ignore_for_file: lines_longer_than_80_chars
 
 import 'package:auto_route/auto_route.dart';
-import 'package:davet/core/log/log.dart';
+import 'package:tekvando/core/log/log.dart';
 import 'package:flutter/material.dart';
 
 class MyObserver extends AutoRouterObserver {

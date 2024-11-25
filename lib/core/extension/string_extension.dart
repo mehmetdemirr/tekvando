@@ -1,4 +1,4 @@
-import 'package:davet/config.dart';
+import 'package:tekvando/config.dart';
 import 'package:easy_localization/easy_localization.dart';
 
 extension StringExtension on String {

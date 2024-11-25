@@ -1,4 +1,4 @@
-import 'package:davet/generated/locale_keys.g.dart';
+import 'package:tekvando/generated/locale_keys.g.dart';
 
 extension DayName on int {
   String dayName() {
